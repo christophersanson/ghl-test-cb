@@ -1,0 +1,6 @@
+task "ci" {
+  # Choose a CI provider
+  use = "github-app-name-here"
+
+  uses = "google-container-builder"
+}
